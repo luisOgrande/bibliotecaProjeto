@@ -12,5 +12,8 @@ namespace Biblioteca.Models
 
         public DbSet<Livro> Livros {get; set;}
         public DbSet<Emprestimo> Emprestimos {get; set;}
+
+        public DbSet<Usuario> Usuarios {get; set;}
+
     }
 }

@@ -14407,6 +14407,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\LUIS_\\OneDrive\\Área de Trabalho\\Biblioteca\\Views\\Usuarios\\ExcluirUsuario.cshtml",
+      "TargetPath": "Views\\Usuarios\\ExcluirUsuario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\LUIS_\\OneDrive\\Área de Trabalho\\Biblioteca\\Views\\Shared\\_CookieConsentPartial.cshtml",
       "TargetPath": "Views\\Shared\\_CookieConsentPartial.cshtml",
       "FileKind": "mvc"
@@ -14414,6 +14419,11 @@
     {
       "FilePath": "c:\\Users\\LUIS_\\OneDrive\\Área de Trabalho\\Biblioteca\\Views\\Livro\\Listagem.cshtml",
       "TargetPath": "Views\\Livro\\Listagem.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\LUIS_\\OneDrive\\Área de Trabalho\\Biblioteca\\Views\\Usuarios\\CadastroRealizado.cshtml",
+      "TargetPath": "Views\\Usuarios\\CadastroRealizado.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14439,6 +14449,11 @@
     {
       "FilePath": "c:\\Users\\LUIS_\\OneDrive\\Área de Trabalho\\Biblioteca\\Views\\Livro\\Edicao.cshtml",
       "TargetPath": "Views\\Livro\\Edicao.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\LUIS_\\OneDrive\\Área de Trabalho\\Biblioteca\\Views\\Usuarios\\NeedAdmin.cshtml",
+      "TargetPath": "Views\\Usuarios\\NeedAdmin.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14469,6 +14484,21 @@
     {
       "FilePath": "c:\\Users\\LUIS_\\OneDrive\\Área de Trabalho\\Biblioteca\\Views\\Home\\Login.cshtml",
       "TargetPath": "Views\\Home\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\LUIS_\\OneDrive\\Área de Trabalho\\Biblioteca\\Views\\Usuarios\\listaDeUsuarios.cshtml",
+      "TargetPath": "Views\\Usuarios\\listaDeUsuarios.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\LUIS_\\OneDrive\\Área de Trabalho\\Biblioteca\\Views\\Usuarios\\EditarUsuario.cshtml",
+      "TargetPath": "Views\\Usuarios\\EditarUsuario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\LUIS_\\OneDrive\\Área de Trabalho\\Biblioteca\\Views\\Usuarios\\RegistrarUsuario.cshtml",
+      "TargetPath": "Views\\Usuarios\\RegistrarUsuario.cshtml",
       "FileKind": "mvc"
     },
     {
