@@ -30,10 +30,7 @@ namespace Biblioteca.Controllers
 
                 senha = Criptografo.TextoCriptografado(senha);
 
-
-
                 IQueryable<Usuario> UsuarioEncontrado = bc.Usuarios.Where(u => u.Login==Login && u.Senha==senha);
-
                 List<Usuario> ListaUsuarioEncontrado = UsuarioEncontrado.ToList();
 
 

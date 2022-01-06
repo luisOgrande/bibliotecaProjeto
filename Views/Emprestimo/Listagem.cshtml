@@ -9,7 +9,12 @@
     
 @{
     ViewData["Title"] = "Listagem de Empréstimos";
+
+    string Classe = "";
+
 }
+
+
 
 <div class="row">
     <div class="col-md-12">
@@ -44,14 +49,18 @@
             <tbody>
                 @foreach(Emprestimo e in Model)
                 {
-                   if ((System.DateTime.Compare(System.DateTime.Now, e.DataDevolucao)>0))
+                  
+                   if ((System.DateTime.Compare(System.DateTime.Now, e.DataDevolucao) > 0) && !e.Devolvido)
                    {
-                       Classe = "text-danger";
+                     Classe = "text-danger";
                        
-                   } else{
+                   } else if(e.Devolvido){
 
-                    Classe = "";
+                    Classe = "text-success";
 
+                   }else
+                   {
+                       Classe = "";
                    }
 
 

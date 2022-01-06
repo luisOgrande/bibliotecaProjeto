@@ -17,7 +17,6 @@ namespace Biblioteca.Models
             }
 
         }
-
         public Usuario Listar(int id)
         {
 

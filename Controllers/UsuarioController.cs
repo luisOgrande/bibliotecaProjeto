@@ -18,9 +18,8 @@ namespace Biblioteca.Controllers
 
             Autenticacao.CheckLogin(this);
             Autenticacao.verificaSeUsuarioEAdmin(this);
-            UsuarioService us = new UsuarioService();
-
-            return View(us.Listar());
+            
+            return View(new UsuarioService().Listar());
 
         }
 
@@ -69,7 +68,7 @@ namespace Biblioteca.Controllers
         {
 
             new UsuarioService().editarUsuario(userEditado);
-            return RedirectToAction("ListaDeuUsuarios");
+            return RedirectToAction("ListaDeUsuarios");
 
         }
 

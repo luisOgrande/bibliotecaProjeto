@@ -4,8 +4,9 @@
 
     //recuperar os dados da controller
     ViewData["Title"] = "Listagem de Livros";
+
     int FiltroPorPag = Int32.Parse(ViewData["livrosPorPagina"].ToString());
-    int PaginaAtual = Int32.Parse(ViewData["livrosPorPagina"].ToString());
+    int PaginaAtual = Int32.Parse(ViewData["PaginaAtual"].ToString());
 
     int NumLivrosPorPag = (Model.Count < FiltroPorPag ? Model.Count : FiltroPorPag);
 
@@ -51,13 +52,13 @@
 
             <div id="SeletorPaginas">
                 <span>Página:</span>
-                @for (int i = 1; i < NumTotalDePag; i++)
+                @for(int i=1; i<NumTotalDePag; i++)
                 {
                     <span><a href="/Livro/Listagem?PaginaAtual=@i">@i, </a></span>
 
                 }
 
-
+                </span>
             </div>
 
 
